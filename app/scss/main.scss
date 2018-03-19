@@ -281,8 +281,9 @@ a {
         margin: 0 auto;
         span {
             display: block;
+            flex:1;
             &:nth-child(2) {
-                width: 120px;
+                // width: 120px;
                 border-left: 1px solid #627cdf;
                 border-right: 1px solid #627cdf;
             }
