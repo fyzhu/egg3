@@ -1,9 +1,14 @@
+html {
+  height: 100%; }
+
 body {
   width: 100%;
+  height: 100%;
   color: #292618; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #292618; }
 
 .index {
   position: relative;
@@ -124,3 +129,80 @@ a {
     margin-top: 50px;
     font-size: 15px;
     color: #43423f; }
+
+.user-center {
+  padding: 0px; }
+  .user-center .me {
+    box-shadow: 0 0 4px rgba(34, 34, 25, 0.1);
+    margin: 0 13px;
+    margin-top: 17px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between; }
+    .user-center .me .name {
+      margin-top: 23px;
+      font-size: 18px; }
+      .user-center .me .name img {
+        width: 58px; }
+    .user-center .me .discount {
+      font-size: 10px;
+      color: #403f37;
+      margin-top: 11px;
+      margin-bottom: 25px; }
+  .user-center .avatar {
+    margin-top: 20px; }
+    .user-center .avatar img {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%; }
+  .user-center .my-list {
+    margin-top: 21px;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    height: 50px;
+    line-height: 50px; }
+    .user-center .my-list img {
+      width: 16px;
+      margin-left: 16px;
+      margin-right: 8px; }
+    .user-center .my-list a {
+      display: block;
+      background: url(../images/arrow.png) no-repeat;
+      background-size: 8px 14px;
+      background-position: right center;
+      margin-right: 17px; }
+
+.order-list {
+  background: #f8f8f8;
+  min-height: 100%; }
+  .order-list .title {
+    height: 39px;
+    line-height: 39px;
+    background: #fff;
+    padding: 0 15px;
+    font-size: 15px; }
+  .order-list ul {
+    padding: 0; }
+  .order-list li {
+    background: #fff;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e9e9e9; }
+    .order-list li .time {
+      font-size: 10px;
+      margin-bottom: 8px;
+      margin-top: 10px; }
+    .order-list li .detail {
+      font-size: 13px;
+      line-height: 23px;
+      margin-bottom: 10px; }
+    .order-list li .status {
+      margin-top: 47px;
+      font-size: 15px; }
+  .order-list .tips {
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 47px; }
