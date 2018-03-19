@@ -1,67 +1,69 @@
-html{
+html {
     height: 100%;
 }
-body{
+
+body {
     width: 100%;
     height: 100%;
     color: #292618;
 }
-a{
+
+a {
     text-decoration: none;
     color: #292618;
 }
-.index{
+
+.index {
     position: relative;
     width: 100%;
     height: 100%;
-    img{
+    img {
         width: 100%
     }
-    .btn{
+    .btn {
         margin-top: 62px;
         padding: 0 54px;
         width: 100%;
         box-sizing: border-box;
     }
-    a{
+    a {
         display: block;
-        text-align: center;
-        // margin:0 54px;
+        text-align: center; // margin:0 54px;
         height: 47.5px;
         line-height: 47.5px;
         color: #3c3c3a;
         font-size: 17px;
         border-radius: 4px;
-        &:active{
+        &:active {
             background: #f9cf0b;
         }
-        &:first-child{
+        &:first-child {
             background: #fbfa00;
             &:active {
                 background: #f9cf0b;
             }
         }
-        &+a{
+        &+a {
             margin-top: 7px;
             box-shadow: 0 0 7px rgba(86, 86, 54, .08);
         }
     }
 }
 
-.vip{
+.vip {
     padding: 0 18px;
-    .title{
-       font-size: 18px;
-       color: #292618;
-       margin-top: 19px;
-       margin-bottom: 25px;
+    .title {
+        font-size: 18px;
+        color: #292618;
+        margin-top: 19px;
+        margin-bottom: 25px;
     }
-    .vip-content{
-        .title{
+    .vip-content {
+        .title {
             color: #292618;
             font-size: 18px;
         }
-        &>div{
+        &>div {
             color: #fff;
             height: 80px;
             margin-bottom: 11px;
@@ -69,48 +71,44 @@ a{
             background-size: 100%;
             display: flex;
             justify-content: space-around;
-            &:last-child{
-                background-image: url(../images/vip2.jpg) ;
+            &:last-child {
+                background-image: url(../images/vip2.jpg);
             }
-            .money{
+            .money {
                 font-size: 27px;
                 width: 68px;
                 margin-top: 32px;
-                span{
+                span {
                     font-size: 20px;
                 }
             }
-            .detail{
+            .detail {
                 font-size: 15px;
-                p:last-child{
+                p:last-child {
                     font-size: 11px;
                 }
             }
-            a{
+            a {
                 display: block;
                 height: 24px;
                 line-height: 24px;
-                color:#fff;
+                color: #fff;
                 margin-top: 28px;
                 width: 63px;
                 text-align: center;
                 border-radius: 12px;
-                
                 font-size: 12px;
-                &.btn{
+                &.btn {
                     background: #fff;
                     color: #cf73fb;
                 }
             }
-            &:first-child{
-                a.btn{
+            &:first-child {
+                a.btn {
                     color: #00e4e3;
-                    
                 }
             }
-
         }
-        
     }
     .title2 {
         margin-top: 20px;
@@ -120,99 +118,97 @@ a{
         color: #43423f;
         font-size: 15px;
     }
-
     .detail2 {
         font-size: 11px;
         line-height: 22px;
     }
 }
-.hover{
+
+.hover {
     position: fixed;
     width: 100%;
     height: 100%;
-    background: rgba(0 , 0, 0, .3);
-    top:0;
+    background: rgba(0, 0, 0, .3);
+    top: 0;
 }
-.notice{
+
+.notice {
     position: fixed;
-    top:50%;
-    left:50%;
-    transform: translateX(-50%)
-    translateY(-50%);
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
     text-align: center;
     border-radius: 4px;
-    width:80%;
+    width: 80%;
     font-size: 15px;
     line-height: 20px;
     color: #3c3c3a;
-    img{
+    img {
         height: 70px;
     }
-    .notice-title{
+    .notice-title {
         margin-top: 15px;
     }
     padding: 23px 0;
     background: #fff;
 }
 
-.vip-notice{
+.vip-notice {
     text-align: center;
-    img{
+    img {
         width: 85px;
         margin-top: 140px;
     }
-    p{
+    p {
         margin-top: 50px;
         font-size: 15px;
         color: #43423f;
     }
 }
 
-.user-center{    
+.user-center {
     padding: 0px;
-    
-    .me{
-        
+    .me {
         box-shadow: 0 0 4px rgba(34, 34, 25, .1);
         margin: 0 13px;
         margin-top: 17px;
         padding: 0 15px;
         display: flex;
         justify-content: space-between;
-        .name{
+        .name {
             margin-top: 23px;
             font-size: 18px;
-            img{
-                width:58px;
+            img {
+                width: 58px;
             }
         }
-        .discount{
+        .discount {
             font-size: 10px;
             color: #403f37;
             margin-top: 11px;
             margin-bottom: 25px;
         }
     }
-    .avatar{
+    .avatar {
         margin-top: 20px;
-        img{
+        img {
             width: 44px;
             height: 44px;
             border-radius: 50%;
         }
     }
-    .my-list{
+    .my-list {
         margin-top: 21px;
         border-top: 1px solid #e9e9e9;
         border-bottom: 1px solid #e9e9e9;
         height: 50px;
         line-height: 50px;
-        img{
+        img {
             width: 16px;
             margin-left: 16px;
             margin-right: 8px;
         }
-        a{
+        a {
             display: block;
             background: url(../images/arrow.png) no-repeat;
             background-size: 8px 14px;
@@ -220,24 +216,22 @@ a{
             margin-right: 17px;
         }
     }
-
 }
 
-.order-list{
-    
+.order-list {
     background: rgb(248, 248, 248);
     min-height: 100%;
-    .title{
+    .title {
         height: 39px;
         line-height: 39px;
         background: #fff;
         padding: 0 15px;
         font-size: 15px;
     }
-    ul{
+    ul {
         padding: 0;
     }
-    li{
+    li {
         background: #fff;
         list-style: none;
         padding-left: 20px;
@@ -245,25 +239,88 @@ a{
         display: flex;
         justify-content: space-between;
         border-bottom: 1px solid #e9e9e9;
-        .time{
+        .time {
             font-size: 10px;
             margin-bottom: 8px;
             margin-top: 10px;
         }
-        .detail{
+        .detail {
             font-size: 13px;
             line-height: 23px;
             margin-bottom: 10px;
         }
-        .status{
+        .status {
             margin-top: 47px;
             font-size: 15px;
         }
-       
     }
-     .tips {
-         text-align: center;
-         font-size: 10px;
-         padding-bottom: 47px;
-     }
+    .tips {
+        text-align: center;
+        font-size: 10px;
+        padding-bottom: 47px;
+    }
+}
+
+.pay {
+    text-align: center;
+    font-size: 10px;
+    .money {
+        font-size: 18px;
+        margin-top: 39px;
+        margin-bottom: 8px;
+    }
+    .tips {
+        height: 10px;
+        margin-bottom: 26px;
+    }
+    .degree {
+        color: #627cdf;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin: 0 auto;
+        span {
+            display: block;
+            &:nth-child(2) {
+                width: 120px;
+                border-left: 1px solid #627cdf;
+                border-right: 1px solid #627cdf;
+            }
+        }
+        padding-bottom: 15px;
+        border-bottom: 1px solid #e9e9e9;
+    }
+    .svip {
+        height: 110px;
+        &.has {
+            border-bottom: 1px solid #e9e9e9;
+        }
+        a {
+            display: block;
+            margin: 29px 90px 14px;
+            height: 37px;
+            line-height: 37px;
+            background: #fef240;
+            font-size: 14px;
+            box-shadow: 2.5px 2.5px 2.5px rgba(25, 4, 11, .07);
+        }
+    }
+    .payment {
+        margin-top: 65px;
+        a {
+            margin: 0 20px;
+            display: block;
+            height: 43px;
+            line-height: 43px;
+            background: #fef240;
+            font-size: 18px;
+            border: 1px solid #cec42b;
+            border-radius: 4px;
+        }
+        a.wechat {
+            background: #00c715;
+            color: #fff;
+            border-color: #009d0b;
+        }
+    }
 }
