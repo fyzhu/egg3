@@ -57,7 +57,8 @@ a {
         background: #f9cf0b; }
     .index a + a {
       margin-top: 7px;
-      box-shadow: 0 0 7px rgba(86, 86, 54, 0.08); }
+      box-shadow: 0 0 7px rgba(86, 86, 54, 0.08);
+      border: 1px solid #c3c3c3; }
 
 .vip {
   padding: 0 18px; }
