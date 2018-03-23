@@ -18,6 +18,8 @@ a {
     width: 100%; }
   .index .btn {
     margin-top: 62px;
+    position: absolute;
+    bottom: 20px;
     padding: 0 54px;
     width: 100%;
     box-sizing: border-box; }
