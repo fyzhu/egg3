@@ -17,13 +17,34 @@ a {
     position: relative;
     width: 100%;
     height: 100%;
-    img {
-        width: 100%
+    .top {
+        position: relative;
+        height: 64%;
+        background: #f9cf0b;
+        .logo{
+            position: absolute;
+            top:7.5%;
+            width: 278.5px;
+            left:50%;
+            transform: translateX(-50%)
+        }
+        .machine{
+            position: absolute;
+            top:24.5%;
+            width: 150.5px;
+            left:50%;
+            transform: translateX(-50%)
+        }
+        .line {
+            position: absolute;
+            bottom: 0;
+            width: 100%;            
+        }
     }
     .btn {
-        margin-top: 62px;
+        top: 73%;
         position: absolute;
-        bottom: 5%;
+        // bottom: 5%;
         padding: 0 54px;
         width: 100%;
         box-sizing: border-box;
