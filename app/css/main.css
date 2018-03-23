@@ -17,7 +17,8 @@ a {
   .index .top {
     position: relative;
     height: 64%;
-    background: #f9cf0b; }
+    background: #f9cf0b;
+    overflow: hidden; }
     .index .top .logo {
       position: absolute;
       top: 7.5%;
