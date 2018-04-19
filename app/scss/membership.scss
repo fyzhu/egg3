@@ -1,0 +1,160 @@
+a {
+    text-decoration: none;
+    color: #292618;
+}
+.vip {
+    padding: 0 18px;
+    .title {
+        font-size: 18px;
+        color: #292618;
+        margin-top: 19px;
+        margin-bottom: 25px;
+    }
+    .vip-content {
+        hr{
+            border-color: #e5e5e5;
+        }
+        .title {
+            color: #292618;
+            font-size: 18px;
+        }
+        &>div {
+            color: #fff;
+            height: 80px;
+            margin-bottom: 22px;
+            background: #ff3600 url(../images/vip1.png) no-repeat;
+            background-size: 64px 68px;  
+            background-position:-12px -19px ;          
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            overflow: hidden;
+            border-left:1px solid #ec9c87;
+            border-top: 1px solid #ec9c87;
+            border-radius: 4px;
+            box-shadow: 3px 3px 3px #da3a0f;
+            &:last-child {
+                background-image: url(../images/vip2.png);
+                margin-top: 22px;
+                // border-top: 1px solid #000;
+            }
+            &>div{
+                width: 120px;
+            }
+            .money {
+                font-size: 16px;
+                // width: 68px;
+                margin-top: 15px;                
+            }
+            .detail {
+                font-size: 12px;    
+                margin-top: 13px;            
+            }
+            a {
+                display: block;
+                height: 24px;
+                line-height: 24px;
+                color: #fff;
+                margin-top: 28px;
+                width: 63px;
+                text-align: center;
+                border-radius: 12px;
+                font-size: 12px;
+                &.btn {
+                    background: #ffd000;
+                    color: #ff3600;
+                }
+            }
+            
+        }
+        &>p{
+            width: 100%;
+            padding: 0 18px;
+            margin-left: -18px;
+            height: 1px;
+            border-top: 1px solid #e5e5e5;
+        }
+    }
+    
+}
+.vipcard{
+    .card{
+        color: #fff;
+        margin: 24px 40px 0;
+        background: #fb4342 url(../images/cardbg.png) center no-repeat;
+        background-size: 342px;
+        border-radius: 4px;
+        .main{
+            text-align: center;        
+            font-size: 21px;
+            height: 119px;
+            line-height: 30px;
+            p{
+                padding-top: 32px;
+            }
+        }
+        .main2{
+            margin:0 15px;
+            &>div:first-child{
+                padding-top: 16px;
+                font-size: 15px;
+            }
+            .date{
+                padding-top: 30px;
+                padding-bottom: 25px;
+                display: flex;
+                justify-content: space-between;
+                div{
+                    width: 50%;
+                    .t{
+                        font-size: 12px;
+                        color: #fcefdc;
+                        margin-bottom: 10px;
+                    }
+                    .d{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            font-size: 10px;
+            margin: 0 15px;
+            height: 33px;
+            line-height: 33px;
+            border-top: 1px solid #fff;
+        }
+    }
+    .bottombg{
+        height: 34px;
+        width: 100%;
+        background: url(../images/bottombg.png)center no-repeat;
+        background-size: 250px;
+    }
+    .desc{
+        
+        border-top: 1px solid #e6e6e6;
+        padding: 25px 18px 0;
+        .title{
+            font-size: 15px;
+        }
+        .detail{
+            margin-top: 15px;
+            font-size: 12px;
+            line-height: 21px;
+        }
+
+    }
+    a{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+        background: #ff561c;
+        color: #fff;
+        height: 45px;
+        line-height: 45px;
+    }
+}

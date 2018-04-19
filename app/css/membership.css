@@ -1,0 +1,127 @@
+a {
+  text-decoration: none;
+  color: #292618; }
+
+.vip {
+  padding: 0 18px; }
+  .vip .title {
+    font-size: 18px;
+    color: #292618;
+    margin-top: 19px;
+    margin-bottom: 25px; }
+  .vip .vip-content hr {
+    border-color: #e5e5e5; }
+  .vip .vip-content .title {
+    color: #292618;
+    font-size: 18px; }
+  .vip .vip-content > div {
+    color: #fff;
+    height: 80px;
+    margin-bottom: 22px;
+    background: #ff3600 url(../images/vip1.png) no-repeat;
+    background-size: 64px 68px;
+    background-position: -12px -19px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    border-left: 1px solid #ec9c87;
+    border-top: 1px solid #ec9c87;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px #da3a0f; }
+    .vip .vip-content > div:last-child {
+      background-image: url(../images/vip2.png);
+      margin-top: 22px; }
+    .vip .vip-content > div > div {
+      width: 120px; }
+    .vip .vip-content > div .money {
+      font-size: 16px;
+      margin-top: 15px; }
+    .vip .vip-content > div .detail {
+      font-size: 12px;
+      margin-top: 13px; }
+    .vip .vip-content > div a {
+      display: block;
+      height: 24px;
+      line-height: 24px;
+      color: #fff;
+      margin-top: 28px;
+      width: 63px;
+      text-align: center;
+      border-radius: 12px;
+      font-size: 12px; }
+      .vip .vip-content > div a.btn {
+        background: #ffd000;
+        color: #ff3600; }
+  .vip .vip-content > p {
+    width: 100%;
+    padding: 0 18px;
+    margin-left: -18px;
+    height: 1px;
+    border-top: 1px solid #e5e5e5; }
+
+.vipcard .card {
+  color: #fff;
+  margin: 24px 40px 0;
+  background: #fb4342 url(../images/cardbg.png) center no-repeat;
+  background-size: 342px;
+  border-radius: 4px; }
+  .vipcard .card .main {
+    text-align: center;
+    font-size: 21px;
+    height: 119px;
+    line-height: 30px; }
+    .vipcard .card .main p {
+      padding-top: 32px; }
+  .vipcard .card .main2 {
+    margin: 0 15px; }
+    .vipcard .card .main2 > div:first-child {
+      padding-top: 16px;
+      font-size: 15px; }
+    .vipcard .card .main2 .date {
+      padding-top: 30px;
+      padding-bottom: 25px;
+      display: flex;
+      justify-content: space-between; }
+      .vipcard .card .main2 .date div {
+        width: 50%; }
+        .vipcard .card .main2 .date div .t {
+          font-size: 12px;
+          color: #fcefdc;
+          margin-bottom: 10px; }
+        .vipcard .card .main2 .date div .d {
+          font-size: 15px; }
+  .vipcard .card .bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin: 0 15px;
+    height: 33px;
+    line-height: 33px;
+    border-top: 1px solid #fff; }
+
+.vipcard .bottombg {
+  height: 34px;
+  width: 100%;
+  background: url(../images/bottombg.png) center no-repeat;
+  background-size: 250px; }
+
+.vipcard .desc {
+  border-top: 1px solid #e6e6e6;
+  padding: 25px 18px 0; }
+  .vipcard .desc .title {
+    font-size: 15px; }
+  .vipcard .desc .detail {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 21px; }
+
+.vipcard a {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  background: #ff561c;
+  color: #fff;
+  height: 45px;
+  line-height: 45px; }
