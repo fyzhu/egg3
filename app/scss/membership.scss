@@ -18,7 +18,7 @@ a {
             color: #292618;
             font-size: 18px;
         }
-        &>div {
+        &>a {
             color: #fff;
             height: 80px;
             margin-bottom: 22px;
@@ -32,7 +32,7 @@ a {
             border-left:1px solid #ec9c87;
             border-top: 1px solid #ec9c87;
             border-radius: 4px;
-            box-shadow: 3px 3px 3px #da3a0f;
+            box-shadow: 3px 3px 0px #da3a0f;
             &:last-child {
                 background-image: url(../images/vip2.png);
                 margin-top: 22px;
@@ -50,7 +50,7 @@ a {
                 font-size: 12px;    
                 margin-top: 13px;            
             }
-            a {
+            p {
                 display: block;
                 height: 24px;
                 line-height: 24px;
@@ -104,7 +104,7 @@ a {
                 padding-bottom: 25px;
                 display: flex;
                 justify-content: space-between;
-                div{
+                &>div{
                     width: 50%;
                     .t{
                         font-size: 12px;

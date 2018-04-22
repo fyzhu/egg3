@@ -14,7 +14,7 @@ a {
   .vip .vip-content .title {
     color: #292618;
     font-size: 18px; }
-  .vip .vip-content > div {
+  .vip .vip-content > a {
     color: #fff;
     height: 80px;
     margin-bottom: 22px;
@@ -28,19 +28,19 @@ a {
     border-left: 1px solid #ec9c87;
     border-top: 1px solid #ec9c87;
     border-radius: 4px;
-    box-shadow: 3px 3px 3px #da3a0f; }
-    .vip .vip-content > div:last-child {
+    box-shadow: 3px 3px 0px #da3a0f; }
+    .vip .vip-content > a:last-child {
       background-image: url(../images/vip2.png);
       margin-top: 22px; }
-    .vip .vip-content > div > div {
+    .vip .vip-content > a > div {
       width: 120px; }
-    .vip .vip-content > div .money {
+    .vip .vip-content > a .money {
       font-size: 16px;
       margin-top: 15px; }
-    .vip .vip-content > div .detail {
+    .vip .vip-content > a .detail {
       font-size: 12px;
       margin-top: 13px; }
-    .vip .vip-content > div a {
+    .vip .vip-content > a p {
       display: block;
       height: 24px;
       line-height: 24px;
@@ -50,7 +50,7 @@ a {
       text-align: center;
       border-radius: 12px;
       font-size: 12px; }
-      .vip .vip-content > div a.btn {
+      .vip .vip-content > a p.btn {
         background: #ffd000;
         color: #ff3600; }
   .vip .vip-content > p {
@@ -83,13 +83,13 @@ a {
       padding-bottom: 25px;
       display: flex;
       justify-content: space-between; }
-      .vipcard .card .main2 .date div {
+      .vipcard .card .main2 .date > div {
         width: 50%; }
-        .vipcard .card .main2 .date div .t {
+        .vipcard .card .main2 .date > div .t {
           font-size: 12px;
           color: #fcefdc;
           margin-bottom: 10px; }
-        .vipcard .card .main2 .date div .d {
+        .vipcard .card .main2 .date > div .d {
           font-size: 15px; }
   .vipcard .card .bottom {
     display: flex;
