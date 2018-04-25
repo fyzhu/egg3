@@ -49,14 +49,10 @@ a {
     color: #3c3c3a;
     font-size: 17px;
     border-radius: 4px; }
-    .index a:active {
-      background: #f9cf0b; }
     .index a:first-child {
       color: #fff;
       background: linear-gradient(to right, #ef8333, #eb5833);
       box-shadow: 0 0 17px #ef8333; }
-      .index a:first-child:active {
-        background: #f9cf0b; }
     .index a + a {
       margin-top: 14px;
       box-shadow: 0 0 7px rgba(86, 86, 54, 0.08);

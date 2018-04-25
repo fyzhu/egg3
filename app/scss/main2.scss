@@ -60,13 +60,13 @@ a {
         font-size: 17px;
         border-radius: 4px;
         &:active {
-            background: #f9cf0b;
+            // background: #f9cf0b;
         }
         &:first-child {
             color: #fff;
             background: linear-gradient(to right, rgba(239,131,51,1), rgba(235,88,51,1));
             &:active {
-                background: #f9cf0b;
+                // background: #f9cf0b;
             }
             box-shadow: 0 0 17px rgba(239, 131, 51, 1);
         }
