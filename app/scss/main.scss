@@ -349,4 +349,30 @@ a {
             border-color: #009d0b;
         }
     }
+    .ad{
+        width: 228px;
+        height: 296px;
+        top:40%;
+        background:#ffe800 url(../images/svip2.png) no-repeat;
+        background-size: 228px 296px;
+        padding: 0;
+        a{
+            margin-top: 245px;
+            display: inline-block;
+            width: 180px;
+            height: 33px;
+            line-height: 33px;
+            font-size: 15px;
+            color: #686543;
+            border-radius: 4px;
+            background-color: #fff;
+        }
+        .close{
+            margin-top: 45px;
+            img{
+                width: 31px;
+                height: 31px;
+            }
+        }
+    }
 }

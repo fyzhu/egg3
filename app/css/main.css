@@ -279,3 +279,25 @@ a {
       background: #00c715;
       color: #fff;
       border-color: #009d0b; }
+  .pay .ad {
+    width: 228px;
+    height: 296px;
+    top: 40%;
+    background: #ffe800 url(../images/svip2.png) no-repeat;
+    background-size: 228px 296px;
+    padding: 0; }
+    .pay .ad a {
+      margin-top: 245px;
+      display: inline-block;
+      width: 180px;
+      height: 33px;
+      line-height: 33px;
+      font-size: 15px;
+      color: #686543;
+      border-radius: 4px;
+      background-color: #fff; }
+    .pay .ad .close {
+      margin-top: 45px; }
+      .pay .ad .close img {
+        width: 31px;
+        height: 31px; }
