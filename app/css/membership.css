@@ -52,7 +52,8 @@ a {
       font-size: 12px; }
       .vip .vip-content > a p.btn {
         background: #ffd000;
-        color: #ff3600; }
+        color: #ff3600;
+        padding: 0; }
   .vip .vip-content > p {
     width: 100%;
     padding: 0 18px;
