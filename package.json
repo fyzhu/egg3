@@ -1,5 +1,5 @@
 {
-  "name": "egg3",
+  "name": "happyegg",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000e\u0000g\u0000g\u00003\u0000\r\u0000 \u0000",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fyzhu/egg3.git"
+    "url": "git+https://github.com/fyzhu/happyegg.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fyzhu/egg3/issues"
+    "url": "https://github.com/fyzhu/happyegg/issues"
   },
-  "homepage": "https://github.com/fyzhu/egg3#readme",
+  "homepage": "https://github.com/fyzhu/happyegg#readme",
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
