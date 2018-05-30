@@ -175,3 +175,138 @@ li {
         color: #333;
     }
 }
+section.detail{
+    .picFit{
+        width: 100%;
+    }
+    .fill{
+        margin:0 28px;
+    }
+    .title {
+        @include vertical(50px);
+        background-color: #fff;
+        text-align: center;
+    }
+    .title1{
+        border-left: 8px solid #ffdc01;
+        height: 34px;
+        margin:0 28px;
+        text-indent: 10px;
+        .cn{
+            color: #333;
+            font-size: 18px;
+        }
+        .en{
+            color: #666;
+            font-size: 13px;
+            font-style: italic;
+        }
+    }
+    .content1{
+        text-align: center;
+        .word{
+            margin:0 46px;
+            @include font(12px,#333);
+            line-height:18px;
+            margin-top: 13px;
+            text-align: left;
+        }
+        .pic1{
+            img{
+                width: 92px;
+                margin-top: 40px;
+            }
+            div{
+                margin-top: 20px;
+                font-size: 10px;
+                margin-bottom: 45px;
+            }
+
+        }
+        .pic2{
+            img{
+                width: 280px;                
+            }
+            div {                
+                width:120px;
+                font-size: 10px;
+                margin:  19px auto 25px;
+                text-align: left;
+                line-height: 15px;                
+            }
+        }
+        .pic3{
+            width: 100%;
+        }
+    }
+    .title2{
+        font-size: 16px;
+        margin:53px 28px 30px;
+        @include vertical(26px);
+        position: relative;
+        &::before{
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            top: -2px;
+            background-color: #ffde39;
+            height: 2px;
+            width: 40px;
+        }
+    }
+    .egg{
+        text-align: center;
+        div{
+            font-size: 14px;
+            margin-top: 50px;
+            margin-bottom: 25px;
+        }
+        .egg2{
+            width: 210px;
+            margin-bottom: 10px;
+            margin-top: 25px;
+        }
+    }
+    .address{
+        @include font(11px ,#555);
+        line-height: 18px;
+        margin-bottom: 27px;
+    }
+    .title1.right{
+        border-left: 0px;
+        text-align: right;
+        border-right: 8px solid #ffdc01;
+        padding-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .title3{
+        color: #333333;
+        border-left: 1px solid #333333;
+        font-size: 15px;
+        @include vertical(17px);
+        text-indent: 4px;
+        margin:11px 28px 17px;
+    }
+    .sec2{
+        .certification{
+            margin-top: 34px;
+            text-align: center;
+            img{
+                width: 248px;
+                margin-bottom: 16px;
+            }
+            div{
+                margin-bottom: 45px;
+                font-size: 13px;
+            }
+        }
+        .word{
+            color: #666666;
+            font-size: 14px;
+            line-height: 18px;
+            margin:14px 37px 18px;
+        }        
+    }
+}
