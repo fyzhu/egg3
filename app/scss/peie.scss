@@ -80,14 +80,15 @@ li {
                 line-height: 1;
                 background-color: #fafafa;
             }
+            
             div:last-child {
                 position: absolute;
                 bottom: -13px;
-                width: 130px;
+                width: 169px;
                 left: 50%;
                 transform: translateX(-50%);
-                @include vertical(27px);
-                font-size: 12px;
+                @include vertical(35px);
+                font-size: 17px;
                 color: #010101;
                 background-color: #ffe042;
             }
@@ -190,9 +191,26 @@ li {
             font-size: 15px;
             color: #8f8f8f;
             text-indent: 14px;
+            padding: 0;
+            border:1px solid #c6c6c6;
         }
         input:first-child {
             margin-bottom: 24px;
+        }
+        div.verify-code {
+            position: relative;
+            width: 252px;
+            margin:0 auto;
+            span {
+                width: 90px;
+                background-color: #ffdc2c;
+                line-height: 39px;
+                position: absolute;
+                right: 0;
+                top: 1px;
+                height: 39px;
+                display: block;
+            }
         }
         &::after {
             content: ">";
