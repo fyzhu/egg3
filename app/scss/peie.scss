@@ -50,31 +50,32 @@ li {
 .home {
     text-align: center;
     .title {
-        @include vertical(50px);
+        @include vertical(5rem);
         background-color: #fff;
+        font-size: 1.8rem;
     }
     &>img {
         width: 100%;
     }
     .content {
-        padding-top: 30px;
+        padding-top: 3rem;
         .up {
             background-color: #fafafa;
-            @include vertical(74px);
-            width: 288.5px;
+            @include vertical(7.4rem);
+            width: 28.85rem;
             margin: 0 auto;
             border: 1px solid #ffdc01;
             position: relative;
-            font-size: 20px;
+            font-size: 2rem;
             span {
                 color: #ff2e2e;
                 font-style: italic;
             }
             div:first-child {
-                font-size: 16px;
-                width: 170px;
+                font-size: 1.6rem;
+                width: 17rem;
                 position: absolute;
-                top: -8px;
+                top: -.8rem;
                 left: 50%;
                 transform: translateX(-50%);
                 line-height: 1;
@@ -83,50 +84,45 @@ li {
             
             div:last-child {
                 position: absolute;
-                bottom: -13px;
-                width: 169px;
+                bottom: -1.3rem;
+                width: 16.9rem;
                 left: 50%;
                 transform: translateX(-50%);
-                @include vertical(35px);
-                font-size: 17px;
+                @include vertical(3.5rem);
+                font-size: 1.7rem;
                 color: #010101;
                 background-color: #ffe042;
             }
         }
         .detail {
-            margin-top: 29px;
+            margin-top: 2.9rem;
             .big {
-                font-size: 15px;
+                font-size: 1.5rem;
                 color: #525252;
             }
             .small {
-                font-size: 10px;
+                font-size: 1rem;
                 color: #525252;
             }
         }
         .more {
-            margin-top: 50px;
-            color: #aaaaaa;
-            font-size: 13px;
+            margin: 2rem auto 0;
+            color: #fff;
+            @include vertical(3.5rem);
+            width: 13rem;
+            font-size: 1.3rem;
             position: relative;
-            &::before {
-                font-size: 22px;
-                content: ">>";
-                position: absolute;
-                transform: rotate(90deg) translateY(50%);
-                left: 50%;
-                top: -32px;
-                font-family: '黑体';
-            }
+            background-color: #21201c;
+            
         }
     }
     .btn {
         position: fixed;
         bottom: 0;
-        @include vertical(50px);
+        @include vertical(5rem);
         width: 100%;
         background-color: #ffde39;
-        font-size: 18px;
+        font-size: 1.8rem;
         color: #333;
         z-index: 9999;
     }
